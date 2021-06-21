@@ -1,3 +1,4 @@
+
 // 01-base/03-prompt-if/script.js - 1.3: promp & if
 
 (() => {
@@ -8,19 +9,29 @@
     // YOUR CODE HERE
   })();
 
-// message propmt
+// message asv-confirm
+function evrard (){
 var user = prompt('Your Name ?')
 var age = prompt('Your Age ?')
 var gender = prompt('Your Gender ?')
 var town = prompt('You Live Where ?')
-// var r = comfirm
-// var y = 'Yes'
-// var n = 'No'
+var conf = prompt(`Your Name is : ${user} ,You are ${age} years old, you are a ${gender} and you live in ${town}.Is this correct ? Y / N`);
 
+// resultat
+console.log(confirm)
 
-if( confirm('Confirm')){
-    alert ('Name:'+ ' '+user + ' ' + age + ' ' + gender + ' ' + town)
-} else{
-    alert (confirm)
+// conditions
+
+if(conf=='Y'){
+    alert ('Welcome')
+}else if(conf!=='Y'){
+    evrard()
+}else{
+    
 }
+    
+
+
+}
+evrard()
 
