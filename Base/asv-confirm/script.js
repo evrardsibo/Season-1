@@ -13,10 +13,14 @@ var user = prompt('Your Name ?')
 var age = prompt('Your Age ?')
 var gender = prompt('Your Gender ?')
 var town = prompt('You Live Where ?')
+// var r = comfirm
+// var y = 'Yes'
+// var n = 'No'
 
-if ( confirm ('Confirm')){
+
+if( confirm('Confirm')){
     alert ('Name:'+ ' '+user + ' ' + age + ' ' + gender + ' ' + town)
-} else {
-    alert ()
+} else{
+    alert (confirm)
 }
 
